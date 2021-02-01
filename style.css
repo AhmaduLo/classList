@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 1px solid;
+  height: 100px;
+  overflow: hidden;
+  
+  width: 80%;
+}
+.two {
+  transition: 0.4s ease-in-out;
+  border: 1px solid;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  color: red;
+  font-size: 35px;
+  bottom: -150px;
+  background-color: rgba(188, 143, 143, 0.377);
+}
+.container:hover .two {
+  bottom: 0px;
+  transition: 0.4s ease-in-out;
+}
+.nombre{
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+}
+.vitesse{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.moins{
+    position: absolute;
+    right:60px;
+    top: 15px;
+}
+.plus {
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+
